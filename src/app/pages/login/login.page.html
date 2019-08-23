@@ -1,0 +1,56 @@
+<ion-content padding>
+
+    <div class="align-item-inbetween">
+      <div class="auth-container">
+        <div class="auth-form login">
+          <div class="auth-form-card">
+            <div class="logo">
+              <img src="assets/imgs/logo-icon.svg" alt="">
+            </div>
+            <h2 class="title">Login</h2>
+            <div class="form-body">
+              <form [formGroup]="loginForm" (ngSubmit)='login()'>
+                  <ion-list lines="none" mode="ios">
+                      <div class="input-item">
+                        <ion-label>Email</ion-label>
+                        <ion-item mode="ios">
+                          <i slot="start" class="mdi mdi-email-open-outline"></i>
+                          <ion-input type="email" placeholder="Enter email" formControlName="mail"></ion-input>
+                        </ion-item>
+                      </div>
+                      <div class="input-item">
+                        <ion-label>Password</ion-label>
+                        <ion-item  mode="ios">
+                          <i slot="start" class="mdi mdi-lock-outline"></i>
+                          <ion-input type="password" placeholder="Enter password" formControlName="password"></ion-input>
+                          <ion-button slot="end" mode="ios" fill="clear" size="small"><i class="mdi mdi-eye-outline"></i> Show
+                          </ion-button>
+                        </ion-item>
+                      </div>
+          
+                      <div text-right class="btn-recover">
+                        <ion-button fill="clear" routerLink="/forgot-password" mode="ios">Forgot Password?</ion-button>
+                      </div>
+                      <div class="btn-submit">
+                        <auth-login-button [userData]="loginForm.value" collection="LOGIN_COLLECTION" [disabled]="!loginForm.valid"></auth-login-button>
+                      </div>
+                    </ion-list>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="or-auth-with">
+          <div class="divider">
+            <span>Or with</span>
+          </div>
+          <div class="auth-with-buttons">
+            <ion-fab-button mode="md" color="facebook"><i class="mdi mdi-facebook"></i></ion-fab-button>
+            <ion-fab-button mode="md" color="google-plus"><i class="mdi mdi-google-plus"></i></ion-fab-button>
+            <ion-fab-button mode="md" color="twitter"><i class="mdi mdi-twitter"></i></ion-fab-button>
+          </div>
+        </div>
+      </div>
+    
+      <div class="auth-footer">Don't have an account? <ion-button routerLink="/register" mode="ios" fill="clear" strong="true">Register</ion-button></div>
+    </div>
+    </ion-content>

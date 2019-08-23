@@ -1,0 +1,128 @@
+@font-face {
+  font-family: 'booktable';
+  src:  url('fonts/booktable.eot?ob38tr');
+  src:  url('fonts/booktable.eot?ob38tr#iefix') format('embedded-opentype'),
+    url('fonts/booktable.ttf?ob38tr') format('truetype'),
+    url('fonts/booktable.woff?ob38tr') format('woff'),
+    url('fonts/booktable.svg?ob38tr#booktable') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="bt-"], [class*=" bt-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'booktable' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.bt-check:before {
+  content: "\e921";
+}
+.bt-calender:before {
+  content: "\e91f";
+}
+.bt-peoples:before {
+  content: "\e920";
+}
+.bt-camera:before {
+  content: "\e917";
+}
+.bt-cancel:before {
+  content: "\e918";
+}
+.bt-completed:before {
+  content: "\e919";
+}
+.bt-edit:before {
+  content: "\e91a";
+}
+.bt-follow:before {
+  content: "\e91b";
+}
+.bt-heart-outline-like:before {
+  content: "\e91c";
+}
+.bt-plus:before {
+  content: "\e91d";
+}
+.bt-progress:before {
+  content: "\e91e";
+}
+.bt-help:before {
+  content: "\e90e";
+}
+.bt-offer:before {
+  content: "\e90f";
+}
+.bt-photos:before {
+  content: "\e910";
+}
+.bt-reservations:before {
+  content: "\e911";
+}
+.bt-setting:before {
+  content: "\e912";
+}
+.bt-staffs:before {
+  content: "\e913";
+}
+.bt-star:before {
+  content: "\e914";
+}
+.bt-user:before {
+  content: "\e915";
+}
+.bt-web:before {
+  content: "\e916";
+}
+.bt-book-table-fill:before {
+  content: "\e900";
+}
+.bt-services-fill:before {
+  content: "\e901";
+}
+.bt-book-table-outline:before {
+  content: "\e902";
+}
+.bt-home-fill:before {
+  content: "\e903";
+}
+.bt-menu-fill:before {
+  content: "\e904";
+}
+.bt-menu-outline:before {
+  content: "\e905";
+}
+.bt-more-fill:before {
+  content: "\e906";
+}
+.bt-more-outline:before {
+  content: "\e907";
+}
+.bt-services-outline:before {
+  content: "\e908";
+}
+.bt-back:before {
+  content: "\e909";
+}
+.bt-heart:before {
+  content: "\e90a";
+}
+.bt-heart-outline:before {
+  content: "\e90b";
+}
+.bt-home-outline:before {
+  content: "\e90c";
+}
+.bt-search:before {
+  content: "\e90d";
+}

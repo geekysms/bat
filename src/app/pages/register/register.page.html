@@ -1,0 +1,89 @@
+<ion-header mode="ios" no-border>
+    <ion-toolbar mode="ios" auth-toolbar>
+      <ion-buttons slot="start">
+        <!-- <ion-button routerLink="/login">
+          <img src="assets/imgs/back.svg" width="25" alt="">
+        </ion-button> -->
+      </ion-buttons>
+      <!-- <ion-title>register</ion-title> -->
+    </ion-toolbar>
+  </ion-header>
+  <ion-content padding>
+  
+    <div class="align-item-inbetween">
+      <div class="auth-container">
+        <div class="auth-form">
+          <div class="auth-form-card">
+            <div class="title-with-button">
+                <h2 class="title">Register</h2>
+                <ion-button fill="clear"><i class="mdi mdi-account-plus"></i> Profile Pic</ion-button>
+            </div>
+            <form [formGroup]="registerForm" (ngSubmit)="register()">
+            <div class="form-body">
+              <ion-list lines="none" mode="ios">
+                <div class="input-item">
+                  <ion-label>Name</ion-label>
+                  <ion-item mode="ios">
+                    <i slot="start" class="mdi mdi-account"></i>
+                    <ion-input type="text" placeholder="Enter name" formControlName="name"></ion-input>
+                  </ion-item>
+                </div>
+                <div class="input-item">
+                  <ion-label>Phone Number</ion-label>
+                  <ion-item mode="ios">
+                    <i slot="start" class="mdi mdi-phone"></i>
+                    <ion-input type="tel" placeholder="Enter number" formControlName="mobile"></ion-input>
+                  </ion-item>
+                </div>
+                <div class="input-item">
+                  <ion-label>Email</ion-label>
+                  <ion-item mode="ios">
+                    <i slot="start" class="mdi mdi-email-open-outline"></i>
+                    <ion-input type="email" placeholder="Enter email" formControlName="mail"></ion-input>
+                  </ion-item>
+                </div>
+                <div class="input-item">
+                    <ion-label>Password</ion-label>
+                    <ion-item  mode="ios">
+                      <i slot="start" class="mdi mdi-lock-outline"></i>
+                      <ion-input type="password" placeholder="Enter password" formControlName="password"></ion-input>
+                      <ion-button slot="end" mode="ios" fill="clear" size="small"><i class="mdi mdi-eye-outline" ></i> Show
+                      </ion-button>
+                    </ion-item>
+                  </div>
+                  <div class="input-item">
+                      <ion-label>Confirm Password</ion-label>
+                      <ion-item  mode="ios">
+                        <i slot="start" class="mdi mdi-lock-outline"></i>
+                        <ion-input type="password" placeholder="Enter confirm password" formControlName="cpassword"></ion-input>
+                        <ion-button slot="end" mode="ios" fill="clear" size="small"><i class="mdi mdi-eye-outline"></i> Show
+                        </ion-button>
+                      </ion-item>
+                    </div>
+    
+             
+                <div class="btn-submit">
+                    <geeky-reg-button [userData]="registerForm.value" collection="REGISTER_COLLECTION" [disabled]="!registerForm.valid"></geeky-reg-button>
+                </div>
+              </ion-list>
+            </div>
+          </form>
+          </div>
+        </div>
+        <div class="or-auth-with">
+          <div class="divider">
+            <span>Or with</span>
+          </div>
+          <div class="auth-with-buttons">
+         
+            <ion-fab-button mode="md" color="facebook"><i class="mdi mdi-facebook"></i></ion-fab-button>
+            <ion-fab-button mode="md" color="google-plus"><i class="mdi mdi-google-plus"></i></ion-fab-button>
+            <ion-fab-button mode="md" color="twitter"><i class="mdi mdi-twitter"></i></ion-fab-button>
+          </div>
+        </div>
+      </div>
+    
+      <div class="auth-footer">Already have an account? <ion-button routerLink="/login" mode="ios" fill="clear" strong="true">Login</ion-button></div>
+    </div>
+  </ion-content>
+  

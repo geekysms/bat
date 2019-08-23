@@ -1,0 +1,201 @@
+[{
+        "id": 1,
+        "title": "Dal Fry",
+        "category": "Main Course",
+        "avatar": "https://robohash.org/nobismaximeomnis.png?size=200x200&set=set1",
+        "price": "$69.64",
+        "discount": "$21.77",
+        "favorite": false,
+        "short_desctiption": "Kessler Group"
+    },
+    {
+        "id": 2,
+        "title": "Veg Manchurian",
+        "category": "Starters",
+        "avatar": "https://robohash.org/noncommodivero.bmp?size=200x200&set=set1",
+        "price": "$75.54",
+        "discount": "$26.22",
+        "favorite": true,
+        "short_desctiption": "Price-Swaniawski"
+    },
+    {
+        "id": 3,
+        "title": "Gobi Manchurian",
+        "category": "Starters",
+        "avatar": "https://robohash.org/autdictadistinctio.jpg?size=200x200&set=set1",
+        "price": "$178.60",
+        "discount": "$33.77",
+        "favorite": true,
+        "short_desctiption": "Rohan, Swaniawski and Hyatt"
+    },
+    {
+        "id": 4,
+        "title": "Aloo Palak",
+        "category": "Main Course",
+        "avatar": "https://robohash.org/nisiutpossimus.jpg?size=200x200&set=set1",
+        "price": "$54.27",
+        "discount": "$46.55",
+        "favorite": false,
+        "short_desctiption": "Schowalter, Bradtke and Kunde"
+    },
+    {
+        "id": 5,
+        "title": "Duobam",
+        "category": "Joseph and the Amazing Technicolor Dreamcoat",
+        "avatar": "https://robohash.org/etquamimpedit.jpg?size=200x200&set=set1",
+        "price": "$54.16",
+        "discount": "$8.67",
+        "favorite": false,
+        "short_desctiption": "Leffler, McClure and Block"
+    },
+    {
+        "id": 6,
+        "title": "Duobam",
+        "category": "Middle of the World, The (O Caminho das Nuvens)",
+        "avatar": "https://robohash.org/dolorumoditdelectus.bmp?size=200x200&set=set1",
+        "price": "$140.03",
+        "discount": "$27.74",
+        "favorite": false,
+        "short_desctiption": "Brekke-Abshire"
+    },
+    {
+        "id": 7,
+        "title": "Bamity",
+        "category": "I'm with Lucy",
+        "avatar": "https://robohash.org/ipsumetquia.bmp?size=200x200&set=set1",
+        "price": "$179.23",
+        "discount": "$8.28",
+        "favorite": true,
+        "short_desctiption": "Abbott LLC"
+    },
+    {
+        "id": 8,
+        "title": "Sub-Ex",
+        "category": "Past Midnight",
+        "avatar": "https://robohash.org/remetvoluptates.png?size=200x200&set=set1",
+        "price": "$88.53",
+        "discount": "$7.07",
+        "favorite": false,
+        "short_desctiption": "Gibson, Murray and Gibson"
+    },
+    {
+        "id": 9,
+        "title": "Wrapsafe",
+        "category": "Säg att du älskar mig",
+        "avatar": "https://robohash.org/idautet.bmp?size=200x200&set=set1",
+        "price": "$59.39",
+        "discount": "$0.89",
+        "favorite": false,
+        "short_desctiption": "Will Inc"
+    },
+    {
+        "id": 10,
+        "title": "Flowdesk",
+        "category": "Ring, The",
+        "avatar": "https://robohash.org/eumsitquos.jpg?size=200x200&set=set1",
+        "price": "$61.63",
+        "discount": "$6.88",
+        "favorite": true,
+        "short_desctiption": "Gusikowski, Doyle and Larson"
+    },
+    {
+        "id": 11,
+        "title": "Duobam",
+        "category": "Déjà Vu",
+        "avatar": "https://robohash.org/atconsequunturnobis.bmp?size=200x200&set=set1",
+        "price": "$138.04",
+        "discount": "$27.38",
+        "favorite": true,
+        "short_desctiption": "Treutel-Skiles"
+    },
+    {
+        "id": 12,
+        "title": "Quo Lux",
+        "category": "Venom",
+        "avatar": "https://robohash.org/accusamusinciduntet.png?size=200x200&set=set1",
+        "price": "$41.82",
+        "discount": "$42.23",
+        "favorite": true,
+        "short_desctiption": "Oberbrunner-Johns"
+    },
+    {
+        "id": 13,
+        "title": "Bigtax",
+        "category": "Kevin Smith: Too Fat For 40",
+        "avatar": "https://robohash.org/voluptasnobisducimus.jpg?size=200x200&set=set1",
+        "price": "$119.44",
+        "discount": "$0.03",
+        "favorite": false,
+        "short_desctiption": "King-Walter"
+    },
+    {
+        "id": 14,
+        "title": "Zathin",
+        "category": "Never Give a Sucker an Even Break",
+        "avatar": "https://robohash.org/uttemporarepellat.bmp?size=200x200&set=set1",
+        "price": "$178.69",
+        "discount": "$13.13",
+        "favorite": false,
+        "short_desctiption": "Harris, Rodriguez and Waters"
+    },
+    {
+        "id": 15,
+        "title": "Treeflex",
+        "category": "Goofy Movies Number One",
+        "avatar": "https://robohash.org/quiadebitiscum.png?size=200x200&set=set1",
+        "price": "$57.76",
+        "discount": "$4.79",
+        "favorite": false,
+        "short_desctiption": "Cremin Group"
+    },
+    {
+        "id": 16,
+        "title": "Temp",
+        "category": "Lover, The (Amant, L')",
+        "avatar": "https://robohash.org/harumillumquisquam.bmp?size=200x200&set=set1",
+        "price": "$109.66",
+        "discount": "$3.04",
+        "favorite": false,
+        "short_desctiption": "Toy, Gibson and Bernhard"
+    },
+    {
+        "id": 17,
+        "title": "Solarbreeze",
+        "category": "American President, The",
+        "avatar": "https://robohash.org/voluptatespraesentiumqui.png?size=200x200&set=set1",
+        "price": "$44.08",
+        "discount": "$26.69",
+        "favorite": false,
+        "short_desctiption": "Will, Prohaska and Ullrich"
+    },
+    {
+        "id": 18,
+        "title": "Prodder",
+        "category": "These Final Hours",
+        "avatar": "https://robohash.org/eadoloribusvelit.bmp?size=200x200&set=set1",
+        "price": "$47.26",
+        "discount": "$15.54",
+        "favorite": false,
+        "short_desctiption": "Miller and Sons"
+    },
+    {
+        "id": 19,
+        "title": "Bigtax",
+        "category": "The Final Girl",
+        "avatar": "https://robohash.org/utautsoluta.bmp?size=200x200&set=set1",
+        "price": "$65.63",
+        "discount": "$17.98",
+        "favorite": false,
+        "short_desctiption": "Bogan, Oberbrunner and McDermott"
+    },
+    {
+        "id": 20,
+        "title": "Ventosanzap",
+        "category": "Avventura, L' (Adventure, The)",
+        "avatar": "https://robohash.org/voluptatibusetvoluptatem.png?size=200x200&set=set1",
+        "price": "$102.75",
+        "discount": "$16.23",
+        "favorite": false,
+        "short_desctiption": "Towne-Kshlerin"
+    }
+]
